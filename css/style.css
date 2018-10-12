@@ -1,0 +1,38 @@
+/* CSS Document */
+body {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	padding-left: 0px;
+}
+
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+	width: 100%;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: darkseagreen;
+    height: 60px;
+	width: 100%;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
